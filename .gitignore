@@ -15,8 +15,10 @@
 /tmp
 
 # Pow Environment Configuration Variables
+#   via http://pow.cx/manual.html#section_2.2
 .powrc
 /.powrc
 
+# Sass Cache
 .sass-cache
 /.sass-cache
