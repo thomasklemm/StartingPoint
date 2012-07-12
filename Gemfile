@@ -21,7 +21,7 @@ group :assets do
   gem 'coffee-rails'
   gem 'uglifier'
   # Bourbon (SASS Mixins)
-  gem 'bourbon', '~> 2.1.0'
+  gem 'bourbon', '~> 2.1.0' # next major version will remove support for border-radius mixin
   # jQuery Rails (jQuery Adapter for Rails)
   gem 'jquery-rails'
 end
