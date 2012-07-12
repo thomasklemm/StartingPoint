@@ -10,19 +10,3 @@
 //= require foundation/jquery.placeholder.min
 //= require foundation/jquery.tooltips
 //= require foundation/foundation
-
-# Readme
-//= require readme/readme
-
-# App
-//= require pages
-//= require readme_custom
-
-$ ->
-  # DOM Loaded
-
-  # Sinatra
-  $('#readme_sinatra').readme({
-      'owner': 'sinatra',
-      'repo': 'sinatra'
-    })
