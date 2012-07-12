@@ -12,12 +12,18 @@ gem 'rails', '3.2.6'
 # Postgres Database Connector
 gem 'pg'
 
+# You can use SQLite3 locally and Postgres on Heroku,
+#   It is best practice however to use the same database technology
+#   in every environment
+# gem 'sqlite3', group: [:development, :test]
+# gem 'pg', group: :production
+
 # Gems used only for assets and not required
 #   in production environments by default.
 group :assets do
   gem 'sass-rails'
   gem 'compass-rails' # some syntax in the foundation stylesheets seems to be only compatible with compass
-  gem 'zurb-foundation', '~> 3.0.3' # specifying nescessary versions for sass and compass
+  gem 'zurb-foundation', '~> 3.0.5' # specifying nescessary versions for sass and compass
   gem 'coffee-rails'
   gem 'uglifier'
   # Bourbon (SASS Mixins)
